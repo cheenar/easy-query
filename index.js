@@ -7,9 +7,9 @@ function lengthOfJson(input)
 	return count;
 }
 
-function insertData(tableName, keypair)
+function insertData(dbName, tableName, keypair)
 {
-	var returnString = "INSERT INTO `sql9139285`.`" + tableName + "` (";
+	var returnString = "INSERT INTO `"+ dbName + "`.`" + tableName + "` (";
 	var values = " VALUES (";
 	var maxLength = 0;
 
@@ -43,3 +43,7 @@ function insertData(tableName, keypair)
 
 	return returnString;
 }
+
+module.exports = {
+	insertData: insertData
+};

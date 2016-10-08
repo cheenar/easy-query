@@ -1,0 +1,28 @@
+{
+  "name": "easy-query",
+  "version": "1.0.0",
+  "description": "Simplifies the process of querying a MySQL database",
+  "main": "easy-query.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cheenar/easy-query.git"
+  },
+  "keywords": [
+    "mysql",
+    "query",
+    "easy"
+  ],
+  "author": "Cheenar Gupte <wafflecaker@gmail.com> (http://github.com/cheenar)",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/cheenar/easy-query/issues"
+  },
+  "homepage": "https://github.com/cheenar/easy-query#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.1.0"
+  }
+}
