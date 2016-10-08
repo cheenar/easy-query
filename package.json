@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/cheenar/easy-query.git"
+    "url": "git://github.com/cheenar/easy-query.git"
   },
   "keywords": [
     "mysql",
