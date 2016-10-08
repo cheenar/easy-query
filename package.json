@@ -2,7 +2,7 @@
   "name": "easy-query",
   "version": "1.0.0",
   "description": "Simplifies the process of querying a MySQL database",
-  "main": "easy-query.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -20,9 +20,5 @@
   "bugs": {
     "url": "https://github.com/cheenar/easy-query/issues"
   },
-  "homepage": "https://github.com/cheenar/easy-query#readme",
-  "devDependencies": {
-    "chai": "^3.5.0",
-    "mocha": "^3.1.0"
-  }
+  "homepage": "https://github.com/cheenar/easy-query#readme"
 }
